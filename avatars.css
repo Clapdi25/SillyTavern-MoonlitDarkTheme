@@ -1,0 +1,35 @@
+/* Стиль 1 - Круглые аватарки с границей */
+.avatar-round {
+  border-radius: 50%;
+  border: 2px solid #4a90e2;
+  box-shadow: 0 0 8px rgba(74, 144, 226, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.avatar-round:hover {
+  transform: scale(1.05);
+}
+
+/* Стиль 2 - Квадратные с закругленными углами */
+.avatar-square {
+  border-radius: 12px;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 90% 100%, 0% 100%);
+  background: #2a2a2a;
+  padding: 3px;
+}
+
+/* Стиль 3 - Шестиугольные (как в мессенджерах) */
+.avatar-hex {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background: linear-gradient(145deg, #3a3a3a, #2d2d2d);
+  padding: 2px;
+}
+
+/* Общие настройки для всех аватарок */
+.avatar {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  margin: 8px;
+  cursor: pointer;
+}

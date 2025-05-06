@@ -1,0 +1,12 @@
+{
+  "name": "Moonlit Dark",
+  "version": "1.0",
+  "author": "Ваше имя",
+  "description": "A dark theme with multiple styling options",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ваш_логин/SillyTavern-MoonlitDarkTheme"
+  },
+  "entry": "./theme.json"
+}

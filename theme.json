@@ -1,13 +1,9 @@
 {
   "name": "Moonlit Dark",
-  "version": "1.0",
-  "author": "Shino",
-  "description": "A soothing dark theme with multiple styling options",
-  "license": "MIT",
   "styles": [
-    "styles/main.css",
-    "styles/avatars.css",
-    "styles/chatVariants.css"
+    "./styles/main.css",
+    "./styles/avatars.css",
+    "./styles/chatVariants.css"
   ],
   "fonts": {
     "RobotoFlex": "./fonts/RobotoFlex.ttf",
