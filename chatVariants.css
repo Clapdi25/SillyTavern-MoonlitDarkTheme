@@ -1,0 +1,23 @@
+/* Стиль 1 - Классический чат */
+.chat-classic {
+  border-radius: 12px;
+  background: linear-gradient(145deg, #2a2a2a, #1f1f1f);
+  box-shadow: 5px 5px 10px #121212;
+}
+
+/* Стиль 2 - Современные карточки */
+.chat-modern {
+  border-left: 4px solid #4a90e2;
+  background: #252525;
+  margin: 10px 0;
+  padding: 15px;
+}
+
+/* Стиль 3 - Консольный вид */
+.chat-console {
+  font-family: monospace;
+  background: #000;
+  border: 1px solid #3a3a3a;
+  padding: 10px;
+  color: #00ff00;
+}

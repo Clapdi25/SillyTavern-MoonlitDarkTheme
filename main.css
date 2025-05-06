@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'MainFont';
+  src: url('../fonts/RobotoFlex.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'HeaderFont';
+  src: url('../fonts/Philosopher.ttf') format('truetype');
+}
+
+:root {
+  --bg-color: #1a1a1a;
+  --text-color: #e0e0e0;
+  --accent: #4a90e2;
+  --hover-effect: brightness(0.9);
+}
+
+body {
+  font-family: 'MainFont', sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* Дополним остальными стилями... */
